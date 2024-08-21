@@ -10,9 +10,3 @@ export function classNames(cls: string, mods: Mods, additional: string[]): strin
     ]
         .join(' ')
 }
-
-
-
-
-
-classNames('app', { hovered: true, selected: true, red: false }, ['additional classes'])
